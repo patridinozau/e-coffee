@@ -11,7 +11,7 @@
                     <v-btn class="mr-3 mt-3" icon @click="close()"><v-icon>mdi mdi-close</v-icon></v-btn>
                 </v-container>
 
-                <v-container class="mt-3">
+                <v-container class="mt-9">
                     <v-list class="popup">
                         <v-list-item>
                             Asculta muzica preferata de pe Spotify! 
@@ -68,12 +68,15 @@ export default {
 
 .popup {
     background-color: #ffe7d6 !important;
-    color:#3e1c06;
+    /* color:#3e1c06; */
 }
 
 .bg{
     background-image: url('../assets/v4micdark.png') !important;
-    /* opacity: 0.5; */
+}
+
+.v-application a {
+    color:#834115;
 }
 
 </style>
