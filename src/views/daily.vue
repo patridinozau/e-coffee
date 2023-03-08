@@ -87,7 +87,7 @@
           <v-container class="info-pics">
             <v-card style="width:30%; height:25vh" flat outlined >
               <v-card-title class="font-mid">Consum</v-card-title>
-              <v-card-text class="font-sm">Consumul de cafea la nivel mondial este de 2.25 miliarde de căni/zi.</v-card-text>
+              <v-card-text class="font-sm">Consumul de cafea la nivel mondial este de 2,25 miliarde de căni/zi.</v-card-text>
             </v-card>
             <v-container style="width: 50%; margin-right:0%">
               <v-img src="../assets/worldwide.png" width="70%" height="70%"></v-img>
