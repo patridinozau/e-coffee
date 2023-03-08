@@ -22,7 +22,7 @@
                         Copiaza linkul din src:
                     </v-list-item>
                     <v-list-item>
-                        <!-- <v-img src="../assets/spotify.png"></v-img> -->
+                        <v-img src="../assets/spotify.png"></v-img>
                     </v-list-item>
                 </v-list>
             </v-container>
@@ -33,8 +33,6 @@
 </template>
 
 <script>
-
-// import poza from "@/assets/spotify.PNG";
 
 export default {
     name: "spotify-info",
@@ -47,10 +45,6 @@ export default {
             this.info = false
         }
     },
-    // items :
-    // [
-    //     {src: '../assets/spotify.PNG'}
-    // ]
 }
 
 </script>
