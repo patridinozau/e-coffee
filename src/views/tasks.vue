@@ -44,9 +44,13 @@
   </script>
   
   <style scoped>
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
   
   .main{
     background-color: #ffe7d6;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .list-item-holder {

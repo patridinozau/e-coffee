@@ -294,6 +294,8 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
 .container {
   width: 100%;
   padding: 0px;
@@ -303,6 +305,7 @@ export default {
 }
 .main{
   background-color: #ffe7d6;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .spotify-design{

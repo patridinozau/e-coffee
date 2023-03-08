@@ -14,7 +14,7 @@
         <v-row class="ma-5 rows">
 
           <v-container class="rows">
-            <v-card style="width:30%; height:25vh" flat outlined >
+            <v-card style="width:30%; height:30vh" flat outlined >
               <v-card-title style="word-break: break-word" class="font-mid">Cum s-a descoperit cafeaua?</v-card-title>
 
               <v-card-text class="font-sm">Se pare că descoperirea cafelei a fost făcută de către un păstor care a observat 
@@ -145,10 +145,12 @@
   </script>
   
   <style scoped>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 .main-app{
   height:100%;
   background-color: #ffe7d6;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .font-title{

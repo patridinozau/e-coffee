@@ -60,14 +60,20 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
 .header{
     display: flex;
     justify-content: space-between;
     background-color: #ffe7d6 !important;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .popup {
     background-color: #ffe7d6 !important;
+    font-family: 'Montserrat', sans-serif;
+
     /* color:#3e1c06; */
 }
 

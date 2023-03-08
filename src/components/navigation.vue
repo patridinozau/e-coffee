@@ -22,8 +22,11 @@
   </script>
   
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+    
   .font{
     color: #210f03;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .links{

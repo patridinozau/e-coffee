@@ -102,6 +102,8 @@
   </script>
   
   <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
   
   .formular{
     background-color: #ffe7d6;
@@ -109,6 +111,7 @@
     justify-content: center;
     /*display: flex;*/
     overflow-y: hidden !important; /* Hide vertical scrollbar */
+    font-family: 'Montserrat', sans-serif;
   }
   
   .textfield{
