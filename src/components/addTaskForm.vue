@@ -56,21 +56,9 @@
   </template>
   
   <script>
-  // import { validationMixin } from 'vuelidate'
-  // import { required, maxLength, minLength } from 'vuelidate/lib/validators'
-  // const { required, minLength } = require('vuelidate/lib/validators')
-  
   export default {
     name: "addTaskForm",
-    // props: addtask
-  
-    // const { required, minLength } = require('vuelidate/lib/validators')
-  
-    // mixins: [validationMixin],
-    // validations: {
-    //   title: { required, maxLength: maxLength(15), minLength: minLength(3) },
-    //   description: {required, maxLength: maxLength(100)},
-    // },
+    
     data: () => ({
       title: '',
       description: '',
@@ -116,7 +104,6 @@
   <style scoped>
   
   .formular{
-    /*width:20rem;*/
     background-color: #ffe7d6;
     align-content: center;
     justify-content: center;
@@ -142,12 +129,5 @@
     color: #3e1c06;
     font-size: large;
   }
-  
-  /*.v-application .primary--text .v-icon {*/
-  /*  color: #8f604a !important;*/
-  /*  caret-color: #8f604a !important;*/
-  /*}*/
-  
-  /*background-color="#ffefe3"*/
   
   </style>
