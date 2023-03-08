@@ -41,7 +41,6 @@ export default {
   },
   methods: {
     start: function() {
-      // console.log("start");
       if(this.timerState !== 'running')
       {
         this.startTime = new Date();
