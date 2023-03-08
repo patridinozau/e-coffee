@@ -34,9 +34,11 @@ export default {
     return {
       timerState: 'stopped',
       crtTimer:0 ,
-      formattedTime: "00:00:00",
+      // formattedTime: "00:00:00",
+      formattedTime: window.sessionStorage.getItem("theTime") || "00:00:00",
       ticker: undefined,
-      snackbar: false
+      snackbar: false,
+      // currentTime: window.sessionStorage.getItem("theTime") || ''
     }
   },
   methods: {
@@ -54,6 +56,8 @@ export default {
       this.timerState = "stopped";
     },
     pause () {
+      // const currentTime = window.sessionStorage.getItem('theTime')
+      window.sessionStorage.setItem('theTime', this.formattedTime)
       window.clearInterval(this.ticker);
       this.timerState = 'paused';
     },
