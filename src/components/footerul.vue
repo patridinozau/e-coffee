@@ -13,5 +13,3 @@ export default {
     name: "footer-ul"
 }
 </script>
-
-<!-- z-index: 99; -->
