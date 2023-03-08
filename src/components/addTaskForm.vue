@@ -11,7 +11,7 @@
         <v-container style="display:flex; justify-content: space-between;">
           
             <v-card-title style="font-size: xx-large" class="font mt-2">
-              adauga un task!
+              Adaugă un task!
             </v-card-title>
   
             <v-btn class="mr-4 mt-6" @click="close()" icon><v-icon>mdi-close</v-icon></v-btn>
@@ -20,7 +20,7 @@
   
         <v-form class="mt-5 mr-5 ml-5">
           <div>
-            <h3 class="font">titlu:</h3>
+            <h3 class="font">Titlu:</h3>
             <v-textarea class="textfield font"
                 prepend-inner-icon="mdi-pencil"
                 counter
@@ -32,7 +32,7 @@
           </div>
   
           <div>
-            <h3 class="font">detalii:</h3>
+            <h3 class="font">Detalii:</h3>
             <v-textarea class="textfield font"
                 prepend-inner-icon="mdi-pencil"
                 counter
@@ -40,12 +40,12 @@
                 clearable
                 v-model="description"
                 label="adauga detalii..."
-            >adauga detalii</v-textarea>
+            >adaugă detalii</v-textarea>
           </div>
   
           <div align="center">
             <v-btn @click="submit" :loading="loading" type="submit" class="ml-1 mr-1 mb-5 butoane" plain outlined text depresed>trimite</v-btn>
-            <v-btn @click="clear" class="ml-1 mr-2 mb-5 butoane" plain outlined text depresed>goleste</v-btn>
+            <v-btn @click="clear" class="ml-1 mr-2 mb-5 butoane" plain outlined text depresed>golește</v-btn>
           </div>
   
         </v-form>

@@ -9,7 +9,7 @@
               </v-btn>
               <v-btn text outlined class="buttons ma-4" @click="$emit('pause')"
                       :disabled="state == 'paused'">
-                pause
+                pauză
               </v-btn>
               <v-btn text outlined class="buttons" @click="$emit('stop')"
                       :disabled="state == 'stopped'">

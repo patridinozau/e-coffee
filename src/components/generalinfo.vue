@@ -7,30 +7,30 @@
             <v-container style="min-height: 50vh" class="popup">
                 
                 <v-container class="header bg">
-                    <v-card-title class="text">Ce poti face pe e-coffee?</v-card-title>
+                    <v-card-title class="text">Ce poți face pe e-coffee?</v-card-title>
                     <v-btn class="mr-3 mt-3" icon @click="close()"><v-icon>mdi mdi-close</v-icon></v-btn>
                 </v-container>
 
                 <v-container class="mt-9">
                     <v-list class="popup">
                         <v-list-item>
-                            Asculta muzica preferata de pe Spotify! 
-                            Introdu linkul unui playlist, asa cum este aratat in fereastra de informatii a zonei.
+                            Ascultă muzica preferată de pe Spotify! 
+                            Introdu linkul unui playlist, așa cum este arătat în fereastra de informații a zonei.
                         </v-list-item>
                         <v-list-item>
-                            Adauga sunete ambientale pentru atmosfera de cafenea acasa!
+                            Adaugă sunete ambientale pentru atmosfera de cafenea acasă!
                         </v-list-item>
                         <v-list-item>
                             Adauga &nbsp;
                             <router-link to="/tasks" style="text-decoration: underline; color:#834115">taskuri</router-link>&nbsp; ca sa nu uiti ce ai de facut!
                         </v-list-item>
                         <v-list-item>
-                            Cronometreaza-ti &nbsp;
-                            <router-link to="/timer" style="text-decoration: underline; color:#834115">timpul</router-link>&nbsp; de invatare!
+                            Cronometrează-ți &nbsp;
+                            <router-link to="/timer" style="text-decoration: underline; color:#834115">timpul</router-link>&nbsp; de învățare!
                         </v-list-item>
                         <v-list-item>
-                            Afla &nbsp;
-                            <router-link to="/daily" style="text-decoration: underline; color:#834115">informatii</router-link>&nbsp; 
+                            Află &nbsp;
+                            <router-link to="/daily" style="text-decoration: underline; color:#834115">informații</router-link>&nbsp; 
                             interesante despre cafea!
                         </v-list-item>
                     </v-list>

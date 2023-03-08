@@ -9,7 +9,7 @@
       <router-link class="links black--text" to="/tasks">
         <v-icon class="iconitsa">mdi-calendar-check-outline</v-icon>tasks</router-link>
       <router-link class="links black--text" to="/daily">
-          <v-icon class="iconitsa">mdi-white-balance-sunny</v-icon>daily cafelutsa</router-link>
+          <v-icon class="iconitsa">mdi-white-balance-sunny</v-icon>cafeluța</router-link>
       
     </v-app-bar>
   </template>

@@ -3,7 +3,7 @@
   
       <navigation />
   
-      <p class="titlu mt-8">adauga un task</p>
+      <p class="titlu mt-8">Adaugă un task</p>
   
       <addTaskForm />
   

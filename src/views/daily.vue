@@ -3,7 +3,7 @@
       <navigation />
         <v-container fluid class="main-app">
           <v-row style="margin-left: 8rem; margin-bottom: 3rem; margin-top:2.5rem">
-          <h1 class="font-title">Curiozitati despre cafea</h1>
+          <h1 class="font-title">Curiozități despre cafea</h1>
         </v-row>
 
 
@@ -35,7 +35,7 @@
               <v-img src="../assets/fuel.png" width="70%" height="70%"></v-img>
             </v-container>
             <v-card style="width:30%; height:25vh" flat outlined >
-              <v-card-title style="word-break: break-word" class="font-mid">Cafeaua este viitoarea benzina?</v-card-title>
+              <v-card-title style="word-break: break-word" class="font-mid">Cafeaua este viitoarea benzină?</v-card-title>
 
               <v-card-text class="font-sm">Oamenii de știință au transformat cu succes cafeaua măcinată în biodiesel, 
                 astfel încât într-o zi cafeaua ar putea să vă alimenteze mașina.
@@ -68,13 +68,13 @@
               <v-img src="../assets/health.png" width="70%" height="70%"></v-img>
             </v-container>
             <v-card style="width:30%; height:35vh" flat outlined >
-              <v-card-title style="word-break: break-word" class="font-mid">Sanatate?</v-card-title>
+              <v-card-title style="word-break: break-word" class="font-mid">Sănătate?</v-card-title>
 
-              <v-card-text class="font-sm">Cercetarile au legat consumul moderat de cafea ,
+              <v-card-text class="font-sm">Cercetarile au legat consumul moderat de cafea,
                 cu o durata de viata mai lunga, plus un risc redus de boli cardiovasculare, 
                 diabet de tip 2 si Parkinson, potrivit publicatiei Harvard Health.
 
-                Deasemenea consumul regulat poate avea beneficii pentru sanatate: riscul redus de boli precum cancerul, 
+                De asemenea, consumul regulat poate avea beneficii pentru sanatate: riscul redus de boli precum cancerul, 
                 bolile de inima si Alzheimer.
               </v-card-text>
             </v-card>
@@ -103,7 +103,7 @@
               <v-img src="../assets/chillin.png" width="70%" height="70%"></v-img>
             </v-container>
             <v-card style="width:30%; height:25vh" flat outlined >
-              <v-card-title style="word-break: break-word" class="font-mid">Cata cafeina?</v-card-title>
+              <v-card-title style="word-break: break-word" class="font-mid">Câtă cafeină?</v-card-title>
 
               <v-card-text class="font-sm">Există mai multă cafeină într-o cafea lungă decât într-un espresso.
               </v-card-text>
@@ -116,8 +116,8 @@
 
           <v-container class="info-pics">
             <v-card style="width:30%; height:25vh" flat outlined >
-              <v-card-title style="word-break: break-word" class="font-mid">Diminetile cu ea...</v-card-title>
-              <v-card-text class="font-sm">Simplul miros al cafelei te ajuta să-ti incepi dimineața frumos!</v-card-text>
+              <v-card-title style="word-break: break-word" class="font-mid">Diminețile cu ea...</v-card-title>
+              <v-card-text class="font-sm">Simplul miros al cafelei te ajută să-ți începi dimineața frumos!</v-card-text>
             </v-card>
             <v-container style="width: 50%; margin-right:0%">
               <v-img src="../assets/gudmorning.png" width="70%" height="70%"></v-img>

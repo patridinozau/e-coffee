@@ -4,7 +4,7 @@
     <navigation />
 
     <v-container class="container mt-9">
-      <h1 align="center">alege cat timp vrei sa inveti</h1>
+      <h1 align="center">Cronometrează-ți timpul de învățare!</h1>
 
       <stopwatch
           :timer="formattedTime"

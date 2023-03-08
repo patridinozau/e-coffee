@@ -13,13 +13,13 @@
             <v-container>
                 <v-list class="popup">
                     <v-list-item>
-                        Deschide Spotify, gaseste playlistul
+                        Deschide Spotify, găsește playlist-ul
                     </v-list-item>
                     <v-list-item>
                         Right-click, share, embed
                     </v-list-item>
                     <v-list-item>
-                        Copiaza linkul din src:
+                        Copiază link-ul din src:
                     </v-list-item>
                     <v-list-item>
                         <v-img src="../assets/spotify.png"></v-img>

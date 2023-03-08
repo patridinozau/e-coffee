@@ -38,7 +38,7 @@
               <v-col class="coloana1">
                   <v-card v-if="linkExists !== true" class="spotify-design" outlined>
                       <v-container style="display: flex; justify-content: space-between;">
-                        <v-card-title style="word-break: break-word" class="font-mid">vrei sa-ti asculti muzica de pe spotify?</v-card-title>
+                        <v-card-title style="word-break: break-word" class="font-mid">Vrei să-ți asculți muzica de pe Spotify?</v-card-title>
                         <spotifyinfo />
                       </v-container>
 
@@ -72,11 +72,11 @@
 
                     <v-col class="coloana3">
 
-                      <v-row class="coloana ma-2"><h2 class="font">sunete ambientale:</h2>
+                      <v-row class="coloana ma-2"><h2 class="font">Sunete ambientale:</h2>
                       </v-row>
 
                         <v-row class="coloana ma-2">
-                          <h2 class="font">cani si farfurii</h2>
+                          <h2 class="font">căni și farfurii</h2>
                     
                           <audio id="audio-cups" volume="0.4">
                             <source src="../assets/sounds/clinking-cups.mp3">
@@ -89,7 +89,7 @@
                         </v-row>
 
                         <v-row class="coloana ma-2">
-                          <h2 class="font">chitara acustica</h2>
+                          <h2 class="font">chitară acustică</h2>
                     
                           <audio id="audio-guitar" volume="0.3">
                             <source src="../assets/sounds/people-guitar.mp3">
