@@ -32,20 +32,12 @@
       Navigation,
       addTaskForm,
       footerul
-      // incercare
     },
     data() {
       return {
         tasks: JSON.parse(window.sessionStorage.getItem('tasks') || [])
       }
   },
-    methods: {
-      deleteTask ()
-      {
-          // delete tasks[n];
-          // console.log(task[n]);
-      }
-    }
   }
   
   
