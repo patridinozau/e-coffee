@@ -4,11 +4,11 @@
       <router-link to="/">
           <img style="width: 80%" src="../assets/logutss.png" />
         </router-link>
-      <router-link class="links black--text" to="/" style="margin-right:1rem; min-width:7rem" overflow-visible><v-icon class="iconitsa">mdi mdi-home-account</v-icon>e-coffee</router-link>
-      <router-link class="links black--text" to="/timer"><v-icon class="iconitsa">mdi-alarm</v-icon>timer</router-link>
-      <router-link class="links black--text" to="/tasks">
+      <router-link class="links black--text font-weight-medium" to="/" style="margin-right:1rem; min-width:7rem" overflow-visible><v-icon class="iconitsa">mdi mdi-home-account</v-icon>e-coffee</router-link>
+      <router-link class="links black--text font-weight-medium" to="/timer"><v-icon class="iconitsa">mdi-alarm</v-icon>timer</router-link>
+      <router-link class="links black--text font-weight-medium" to="/tasks">
         <v-icon class="iconitsa">mdi-calendar-check-outline</v-icon>tasks</router-link>
-      <router-link class="links black--text" to="/daily">
+      <router-link class="links black--text font-weight-medium" to="/daily">
           <v-icon class="iconitsa">mdi-white-balance-sunny</v-icon>cafeluța</router-link>
       
     </v-app-bar>

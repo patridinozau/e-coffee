@@ -21,7 +21,7 @@
 
 <script>
 import Navigation from '@/components/navigation'
-import stopwatch from "./stopwatch";
+import stopwatch from '@/components/stopwatch.vue'
 import footerul from "../components/footerul.vue";
 
 export default {

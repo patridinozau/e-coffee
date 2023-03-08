@@ -48,7 +48,7 @@
         <v-row class="mr-5 ml-5 mt-15 mb-5 rows" style="display: flex; justify-content: center; align-content: center;">
 
           <v-container class="info-pics">
-            <v-card style="width:30%; height:25vh" flat outlined >
+            <v-card style="width:30%; height:30vh" flat outlined >
               <v-card-title style="word-break: break-word" class="font-mid">Tipuri de cafea</v-card-title>
               <v-card-text class="font-sm">Există două categorii principale de cafea: Robusta și Arabica. 
                 Cafeaua Robusta are o aromă mai acidă și mai aspră, cu un nivel mai ridicat de cafeină. 
@@ -85,7 +85,7 @@
         <v-row class="mr-5 ml-5 mt-15 mb-5 rows" style="display: flex; justify-content: center; align-content: center;">
 
           <v-container class="info-pics">
-            <v-card style="width:30%; height:25vh" flat outlined >
+            <v-card style="width:30%; height:20vh" flat outlined >
               <v-card-title style="word-break: break-word" class="font-mid">Consum</v-card-title>
               <v-card-text class="font-sm">Consumul de cafea la nivel mondial este de 2,25 miliarde de căni/zi.</v-card-text>
             </v-card>
@@ -102,7 +102,7 @@
             <v-container style="width: 50%; margin-left:0%">
               <v-img src="../assets/chillin.png" width="70%" height="70%"></v-img>
             </v-container>
-            <v-card style="width:30%; height:25vh" flat outlined >
+            <v-card style="width:30%; height:20vh" flat outlined >
               <v-card-title style="word-break: break-word" class="font-mid">Câtă cafeină?</v-card-title>
 
               <v-card-text class="font-sm">Există mai multă cafeină într-o cafea lungă decât într-un espresso.
@@ -115,7 +115,7 @@
         <v-row class="mr-5 ml-5 mt-15 mb-5 rows" style="display: flex; justify-content: center; align-content: center;">
 
           <v-container class="info-pics">
-            <v-card style="width:30%; height:25vh" flat outlined >
+            <v-card style="width:30%; height:20vh" flat outlined >
               <v-card-title style="word-break: break-word" class="font-mid">Diminețile cu ea...</v-card-title>
               <v-card-text class="font-sm">Simplul miros al cafelei te ajută să-ți începi dimineața frumos!</v-card-text>
             </v-card>

@@ -44,8 +44,8 @@
           </div>
   
           <div align="center">
-            <v-btn @click="submit" :loading="loading" type="submit" class="ml-1 mr-1 mb-5 butoane" plain outlined text depresed>trimite</v-btn>
-            <v-btn @click="clear" class="ml-1 mr-2 mb-5 butoane" plain outlined text depresed>golește</v-btn>
+            <v-btn @click="submit" :loading="loading" type="submit" class="ml-1 mr-1 mb-5 butoane font-weight-bold" plain outlined text depresed>trimite</v-btn>
+            <v-btn @click="clear" class="ml-1 mr-2 mb-5 butoane font-weight-bold" plain outlined text depresed>golește</v-btn>
           </div>
   
         </v-form>
