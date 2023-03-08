@@ -33,7 +33,6 @@
             </v-row>
 
             <!-- spotify playlist -->
-                <!-- de facut cu session storage -->
 
             <v-row class="mt-3">
               <v-col class="coloana1">
@@ -70,8 +69,6 @@
 
                   <!-- sunete background -->
                   <v-container style="display: flex; align-items: center; max-width:40rem;">
-
-                    <!-- <v-row class="coloana ma-2"><h2 class="font">sunete ambientale:</h2></v-row> -->
 
                     <v-col class="coloana3">
 
@@ -231,7 +228,6 @@ export default {
   data:() => ({
     linkSpotify: window.sessionStorage.getItem("spotifyURL") || '',
     loading: false,
-    // linkExists: false,
     rain: false,
     cups: false,
     guitar: false,
@@ -250,10 +246,7 @@ export default {
       {
         this.loading = true
         this.linkExists = true
-        // linkSpotify = 
         window.sessionStorage.setItem('spotifyURL', this.linkSpotify);
-        // loading = false
-        // this.linkSpotify = ''
       }
     },
     togglerain() {
