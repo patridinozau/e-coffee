@@ -21,8 +21,8 @@
                             Adaugă sunete ambientale pentru atmosfera de cafenea acasă!
                         </v-list-item>
                         <v-list-item>
-                            Adauga &nbsp;
-                            <router-link to="/tasks" style="text-decoration: underline; color:#834115">taskuri</router-link>&nbsp; ca sa nu uiti ce ai de facut!
+                            Adaugă &nbsp;
+                            <router-link to="/tasks" style="text-decoration: underline; color:#834115">taskuri</router-link>&nbsp; ca să nu uiți ce ai de facut!
                         </v-list-item>
                         <v-list-item>
                             Cronometrează-ți &nbsp;
