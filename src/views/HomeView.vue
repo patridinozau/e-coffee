@@ -134,6 +134,13 @@
 
       </v-container>
 
+      <v-snackbar v-model="snackbar" color="#3e1c06">
+        te rog introdu link-ul
+            <v-btn style="margin-left: 7rem;" dark outlined icon @click="snackbar = false">
+              <v-icon>mdi mdi-close</v-icon>
+            </v-btn>
+      </v-snackbar>
+
       <!--        info button-->
       
       <generalinfo />
@@ -228,6 +235,7 @@ export default {
   data:() => ({
     linkSpotify: window.sessionStorage.getItem("spotifyURL") || '',
     loading: false,
+    snackbar: false,
     rain: false,
     cups: false,
     guitar: false,
@@ -242,12 +250,14 @@ export default {
   methods: {
     sendSpotifyLink () 
     {
-      if(this.linkSpotify != '')
+      if(this.linkSpotify != "")
       {
         this.loading = true
         this.linkExists = true
         window.sessionStorage.setItem('spotifyURL', this.linkSpotify);
       }
+      else
+        this.snackbar=true
     },
     togglerain() {
       var audio = document.getElementById("audio-rain");
